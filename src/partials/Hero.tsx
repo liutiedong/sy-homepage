@@ -10,20 +10,20 @@ const Hero = () => (
     <HeroAvatar
       title={
         <>
-          Hi there, I'm <GradientText>Shen YUE</GradientText> 👋
+          Hi there, I'm <GradientText>SHEN Yue</GradientText> 👋
         </>
       }
       description={
         <>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
-            malesuada
+          I worked as a manager at {' '}
+          <a className="text-cyan-400 hover:underline" href="https://www2.deloitte.com/sg/en.html">
+            Deloitte
           </a>{' '}
-          nisi tellus, non imperdiet nisi tempor at. Lorem ipsum dolor sit amet,{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
-            consectetur
+          Before that, I worked at valuation senior associate at {' '}
+          <a className="text-cyan-400 hover:underline" href="https://kpmg.com/sg/en/home.html">
+            KPMG
           </a>{' '}
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+          I obtained Master of Science in Financial Engineering at National University of Singapore.
         </>
       }
       avatar={
@@ -48,7 +48,7 @@ const Hero = () => (
               alt="Facebook icon"
             />
           </a>
-          <a href="/">
+          <a href="https://www.linkedin.com/in/yue-shen-403666157/">
             <HeroSocial
               src="/assets/images/linkedin-icon.png"
               alt="Linkedin icon"
